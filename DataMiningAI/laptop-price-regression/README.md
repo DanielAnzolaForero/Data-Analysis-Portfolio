@@ -30,7 +30,7 @@ Se optó por un enfoque de **Aprendizaje Supervisado**:
 
 ## 📈 Resultados Obtenidos
 * **Precisión (R2 Score):** ~0.88 (El modelo explica el 88% de la varianza de los precios).
-* **Variables Críticas:** El análisis de importancia reveló que la **RAM**, la **frecuencia del CPU (GHz)** y la presencia de **SSD** son los tres factores que más disparan el precio.
+* **Variables Críticas:** El análisis de importancia reveló que la **RAM**, es el factor que más dispara el precio.
   <img width="1566" height="715" alt="image" src="https://github.com/user-attachments/assets/0d8df1ff-38bd-4834-9587-cab0a9143e20" />
 
 * **Visualización:** Se generaron gráficos de importancia de variables y de dispersión (Real vs. Predicho) que validan la consistencia del modelo.
