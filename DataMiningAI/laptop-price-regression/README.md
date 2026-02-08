@@ -25,11 +25,17 @@ Se optó por un enfoque de **Aprendizaje Supervisado**:
 1.  **Transformación Logarítmica:** Se aplicó `log` al precio para normalizar la distribución y reducir el impacto de los valores atípicos (laptops de lujo).
 2.  **Algoritmo de Regresión:** Se implementó **Random Forest Regressor**, seleccionado por su capacidad para manejar relaciones no lineales y su robustez frente al sobreajuste.
 3.  **Evaluación:** Se utilizaron las métricas **R2 Score** y **MAE (Mean Absolute Error)**.
+<img width="1314" height="781" alt="image" src="https://github.com/user-attachments/assets/46eb7d8f-1c70-4ac2-a6ef-42fc3fb8293f" />
+
 
 ## 📈 Resultados Obtenidos
 * **Precisión (R2 Score):** ~0.88 (El modelo explica el 88% de la varianza de los precios).
 * **Variables Críticas:** El análisis de importancia reveló que la **RAM**, la **frecuencia del CPU (GHz)** y la presencia de **SSD** son los tres factores que más disparan el precio.
+  <img width="1566" height="715" alt="image" src="https://github.com/user-attachments/assets/0d8df1ff-38bd-4834-9587-cab0a9143e20" />
+
 * **Visualización:** Se generaron gráficos de importancia de variables y de dispersión (Real vs. Predicho) que validan la consistencia del modelo.
+  <img width="1554" height="420" alt="image" src="https://github.com/user-attachments/assets/0c747cee-eefe-4a0c-a9f6-47bedd828769" />
+
 
 
 ## 💡 Conclusiones
