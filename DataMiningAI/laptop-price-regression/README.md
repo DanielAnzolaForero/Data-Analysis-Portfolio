@@ -2,6 +2,7 @@
 
 Este proyecto utiliza técnicas de **Data Mining** y **Machine Learning** para predecir el precio de laptops en función de sus especificaciones técnicas. El objetivo es identificar qué componentes de hardware tienen un mayor impacto en el valor de mercado.
 
+https://youtu.be/SF5R3z0h67E
 ---
 
 ## 🎯 Objetivo y Pregunta Central
